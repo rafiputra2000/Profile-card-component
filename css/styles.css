@@ -1,0 +1,119 @@
+/**********************************SELECTOR***********************************/
+body{
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+  background-position: top -60vh left -20vw, top 25vw right -15vw;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/**********************************CLASS SELECTOR*******************************/
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  margin: 200px auto 20px auto;
+
+
+}
+
+.card{
+  display: flex;
+  background-color: white;
+  width: 400px;
+  height: 420px;
+  border-radius: 20px;
+  background-image: url("images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.card-middle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-picture{
+  font-weight: 700;
+  margin: 5px auto 10px auto;
+
+}
+
+.age{
+  margin-left: 10px;
+  margin: 5px auto 10px 10px;
+  color: hsl(227, 10%, 46%);
+
+}
+
+.come-from{
+  font-size: 0.9375rem;
+  margin: 0 auto 25px auto;
+  color: hsl(227, 10%, 46%);
+
+}
+
+.line{
+  width: 398px;
+  border-bottom: none;
+  opacity: 0.4;
+}
+
+
+.card-bottom{
+  display: flex;
+  margin: 20px auto 20px auto;
+
+}
+
+.followers{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.likes{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+.photos{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.count{
+  font-weight: 700;
+  margin: 5px auto 0 auto;
+
+}
+
+.content{
+  margin: 5px auto 10px auto;
+  font-size: 0.75rem;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 1px;
+
+}
+
+
+
+/**********************************IMG CLASS SELECTOR*******************************/
+.img-profile{
+  border-radius: 50%;
+  margin-top: 110px;
+  border: 10px solid;
+  border-color: white;
+
+}
